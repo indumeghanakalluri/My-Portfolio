@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(68.7deg, rgb(235, 217, 221) 8%, rgb(216, 174, 211) 55.4%, rgb(145, 130, 196) 91.1%);">
+    <!-- Navigation Menu -->
+    <nav class="nav">
+        <div class="nav-brand">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Header -->
+    <header id="home">
+        <div class="hero-image">
+            <img src="myimage.jpg" height="200px" width="150px" alt="Hero Image" style="border-radius: 50%; border: 2px solid pink;">
+        </div>
+        <div class="hero-container">
+            <h1>Hello,my name is <span class="name">Indu Meghana</span></h1>
+            <h1>I am a <span class="work">     </span></h1>
+        </div>
+    </header>
+
+    <main>
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <br><br>
+            <h2>About </h2><br>
+            <p>I am a dedicated web developer with a strong foundation in C, C++, Python, data structures, and MySQL. I have been fascinated by coding since I was very young, which led me to develop a passion for creating dynamic and efficient web solutions.</p>
+            <p>Along with my technical skills, I am passionate about continuous learning and personal growth. It's a pleasure to work with like-minded individuals to bring innovative ideas to life in collaborative environments. My free time is spent exploring new technologies, contributing to open-source projects, and engaging in activities that promote personal well-being.</p>
+        </div>
+        <div class="edu-skill">
+        <div class="about-education">
+                      <h2>Education</h2>
+            <ul><pre>
+                <li>Bachelor's in Computer 
+Science and Engineering  -  80%  -  SRM UNIVERSITY AP</li>
+                <li>Intermediate                      -  82%  -  Bhashyam Junior College</li>
+                <li>10th Standard                    -  83%  -  Sri Venkateswara Bala Kuteer</li></pre>
+            </ul>
+        </div><br>
+            
+                <div class="about-skills">
+                    <h2>Skills</h2>
+
+                <ul>
+                    <div>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>ReactJs</li>
+                    <li>Node.js</li></div>
+                    <div>
+                    <li>C , C++</li>
+                    <li>Python</li>
+                    <li>Mysql</li>
+                    <li>Data Structures and Algorithms</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2><br>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Bank Management System using C++</h3>
+                    <p>A Bank Management System in C++ which tracks all the transactions and updates the Balance Amount.</p>
+                    <a href="bank-management.pdf"><button class="btn">C++ Project</button></a>
+                </div>
+                <div class="project">
+                    <h3>Database Management System of an E-commerce Platform</h3>
+                    <p>A DBMS Project of an E-commerce Platform that tracks all the Activities on the platform and collects the Data</p>
+                    <a href="DBMS PROJECT .pdf"><button class="btn">DBMS Project</button></a>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Information</h2><br>
+            <p>Email : <a href="mailto:indumeghana237@gmail.com" class="link" target="_blank">indumeghana237@gmail.com</a></p>
+            <p>Contact : 8977942088</p>
+            <p>GitHub : <a href="https://github.com/indumeghanakalluri" class="link" target="_blank">GitHub</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/indumeghana237/" class="link" target="_blank">LinkedIn</a></p>
+        </div>
+    </section></main>
+</body>
+    <!-- Footer Section-->
+    <footer>
+        <p>&copy; 2024 My Portfolio Website</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed=new Typed(".work",{
+            strings:["Web Developer","Programmer","Web Developer","Programmer"],
+            typeSpeed:60,
+            backSpeed:50,
+            
+        })
+    </script>
+</body>
+</html>
